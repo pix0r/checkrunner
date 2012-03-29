@@ -1,0 +1,12 @@
+checkrunner
+
+Helps streamline the process of running various checks on source files
+
+Taken from Yipit's git pre-commit hook: 
+http://tech.yipit.com/2011/11/16/183772396/
+
+Modifications:
+* Customize which checks to run
+* Exclude entire directories (e.g. ".git")
+* Removed Django code validator step
+
